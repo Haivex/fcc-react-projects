@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: brown;
+}
+
+#quote-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* display: flex; */
+  border: 1px solid black;
+  width: 500px;
+  height: auto;
+  padding: 50px;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: goldenrod;
+}
+
+#messages {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#text {
+ 
+}
+
+#text::before {
+  font-family: 'Times New Roman', Times, serif;
+  content: '"';
+  line-height: 0cm;
+  font-size: 72px;
+}
+
+#author {
+  margin-top: 10px;
+  display: flex;
+  align-self: flex-end;
+}
+
+#author::before {
+  content: '~';
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
