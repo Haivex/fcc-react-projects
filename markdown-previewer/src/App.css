@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+#editor {
+  margin-top: 0.5rem;
+  position: relative;
+  border: 2px solid green;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw;
+  height: 30vh;
+}
+
+pre {
+  border: 1px solid black;
+}
+
+#preview {
+  position: relative;
+  margin-top: 5rem;
+  white-space: nowrap;
+  display: block;
+  border: 1px solid blueviolet;
+  width: 80vw;
+  height: 50vh;
+  overflow: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+}
+
+code {
+  padding: 0.5rem
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  list-style-position: inside;
+}
+
+blockquote {
+  border-left: 5px solid green;
+  padding-left: 0.5rem;
+}
